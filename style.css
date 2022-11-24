@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*Versão Mobile midias*/
+/* Typical Device Breakpoints 
+    Pequenas Telas até 600px:    
+    celular: de 600px até 768px
+    Tablet: 768px ate 992 
+    Desktop: 992px até 1200px
+    Grandes Telas: Acima de 1200px  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+   background-image: linear-gradient(to top, rgb(22, 85, 127), rgb(215, 240, 247));
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+section#login > div#imagem{
+   display: block;
+   background: black url(imagens/pexels-pixabay-277770.jpg) no-repeat;
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px 20px 0px 0px;
+}
+section#login > div#formulario{
+    display: block;
+   
+}
+
+section#login { 
+    position: absolute;
+    background-color: white;
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 544px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.667);
+}
+
+
+div > h1 {
+  
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div > p {
+ font-size: 1.1em;  
+ padding: 10px;
+}
+ 
+form > input[type=submit]{
+   
+    display: inline-block;
+    background-color: #1b568dc0;
+    
+    color: white;
+    height: 40px;
+    width: 50%;
+    margin-top: 13px;
+    padding-top:0px ;
+    text-align: center;
+    border: none;
+    padding-left: 10px;
+    margin-left: 25%;
+    border: 1px solid black;
+}
+
+form > input[type=submit]:hover{
+    
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+
+form > a.esqueci {
+    display: inline-block;
+    background-color: #1b568dc0;
+    
+    color: white;
+    height: 20px;
+    width: 47%;
+    margin-top: 13px;
+    padding-top:0px ;
+    text-align: center;
+    border: none;
+    padding-left: 10px;
+    margin-left: 25%;
+    border: 1px solid black;
+}
+
+form > a.esqueci:hover{
+    background-color: rgb(0, 21, 255);
+    color: aliceblue;
+    height: 20px;
+    
+}
+
+form > div.ema{
+    background-color: rgb(21, 33, 75);
+    color: antiquewhite;
+    padding: 3px;
+}
+
+form > div.sen{
+    margin-top: 5px;
+    background-color: rgb(21, 33, 75);
+    color: antiquewhite;
+    padding: 3px;
+}
+
+div.ema > input {
+    background-color: #c1f3ec;
+    height: 28px;
+    width: 60%;
+    border-radius: 9px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.421);
+}
+
+div.sen > input {
+    background-color: #c1f3ec;
+    height: 28px;
+    width: 60%;
+    border-radius: 9px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.421);
+}
+
+form > input[type=button] {
+    display: inline-block;
+    background-color: #1b568dc0;
+    
+    color: white;
+    height: 40px;
+    width: 50%;
+    margin-top: 13px;
+    padding-top:0px ;
+    text-align: center;
+    border: none;
+    padding-left: 10px;
+    margin-left: 25%;
+    border: 1px solid black;
+}
+
+form > input[type=button]:hover{
+    background-color: blue;
+}
+
+
